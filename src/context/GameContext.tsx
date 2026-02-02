@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useReducer, useEffect, ReactNode } from 'react';
-import { GameState, Resources, FactionId, Faction } from '../types';
+import { GameState, Resources, FactionId } from '../types';
 import { INITIAL_FACTIONS } from '../data/factions';
 import {
     INITIAL_RESOURCES,
@@ -340,7 +340,7 @@ export const GameProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
                 dispatch({ type: 'START_GAME' });
             }
         } else {
-            dispatch({ type: 'START_GAME' });
+            // Start at main menu (DEFAULT_STATE has showMenu: true and currentTurn: 0)
         }
     }, []);
 

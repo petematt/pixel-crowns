@@ -1,4 +1,4 @@
-import { GameState, Resources, FactionId, Faction, Monarch } from '../types';
+import { Resources, FactionId, Faction, Monarch } from '../types';
 
 export const INITIAL_RESOURCES: Resources = {
     gold: 1000,
@@ -65,9 +65,6 @@ export const PARENT_TEMPLATES: Record<string, {
 
 
 export function generateMonarch(parent1: string, parent2: string, generation: number): Monarch {
-    const p1 = PARENT_TEMPLATES[parent1];
-    const p2 = PARENT_TEMPLATES[parent2];
-
     // Logic to combine names or just random name
     const names = ["Arthur", "Eleanor", "Henry", "Matilda", "Richard", "Isabella", "Edward", "Mary"];
     const name = names[Math.floor(Math.random() * names.length)] + " " + toRoman(generation);

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { GameProvider, useGame } from './context/GameContext';
 import { Layout } from './components/Layout';
 import { ThroneRoom } from './components/ThroneRoom';

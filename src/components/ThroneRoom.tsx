@@ -76,7 +76,7 @@ export const ThroneRoom: React.FC = () => {
 
     return (
         <div className={styles.room}>
-            <img src="/assets/bg_throne.png" className={styles.bgImage} alt="Throne Room" />
+            <img src="assets/bg_throne.png" className={styles.bgImage} alt="Throne Room" />
 
             {/* Background Banners */}
             <div className={styles.banners}>
@@ -113,7 +113,7 @@ export const ThroneRoom: React.FC = () => {
             {/* Monarch */}
             <div className={styles.throne}>
                 <div className={styles.kingContainer}>
-                    <img src="/assets/king_adult.png" className={styles.kingSprite} alt="Monarch" />
+                    <img src="assets/king_adult.png" className={styles.kingSprite} alt="Monarch" />
                     <div className={styles.age}>Age: {Math.floor(monarch.age)}</div>
                 </div>
             </div>

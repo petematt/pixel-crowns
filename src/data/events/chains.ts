@@ -454,7 +454,7 @@ export const chainEvents: GameEvent[] = [
     {
         id: 'C05_4',
         title: 'CLEARER SKIES',
-        description: "The fog is lifting, but it has left behind a layer of 'Vapor Gems.' Also, the air is Currently: 'Extremely Refreshing.'",
+        description: "The fog is lifting, but it has left behind a layer of 'Vapor Gems.' Also, the air has attained a status of being \"Extremely Refreshing.\"",
         category: 'system',
         weight: 0,
         requirements: { items: ['purple_filter'] },
@@ -482,7 +482,7 @@ export const chainEvents: GameEvent[] = [
     {
         id: 'C06_1',
         title: 'TICK-TOCK TICKLES',
-        description: "An inventor named Crank has delivered a mechanical clown. It is Currently: 'Performing a perfect backflip while insulting your lineage in binary.'",
+        description: "An inventor named Crank has delivered a mechanical clown. It is busily occupied with performing a perfect backflip while insulting your lineage in binary.",
         category: 'artisan',
         weight: 2,
         options: [
@@ -505,7 +505,7 @@ export const chainEvents: GameEvent[] = [
     {
         id: 'C06_2',
         title: 'MECHANICAL MELODIES',
-        description: "The Clockwork Jester has replaced the royal orchestra with a series of steam-whistles and rusty gears. It is Currently: 'Playing a symphony of grinding metal.'",
+        description: "The Clockwork Jester has replaced the royal orchestra with a series of steam-whistles and rusty gears. It is busily occupied with playing a symphony of grinding metal.",
         category: 'narrative',
         weight: 0,
         requirements: { items: ['mainspring'] },
@@ -630,7 +630,7 @@ export const chainEvents: GameEvent[] = [
     {
         id: 'C07_4',
         title: 'THE GOLDEN ARMY',
-        description: "Your soldiers are becoming invincible, unmoving pillars of metal. Your General is Currently: 'Trying to use them as mobile cover.'",
+        description: "Your soldiers are becoming invincible, unmoving pillars of metal. Your General is busily occupied with trying to use them as mobile cover.",
         category: 'army',
         weight: 0,
         requirements: { items: ['golden_touch'] },
@@ -2411,7 +2411,7 @@ export const chainEvents: GameEvent[] = [
     {
         id: 'C25_2',
         title: 'THE SHADOWY STEAL',
-        description: "Gold is missing from the vault. There are no footprints, only a 'Lingering Gloom.' It is Currently: 'Hiding under the bed.'",
+        description: "Gold is missing from the vault. There are no footprints, only a 'Lingering Gloom.' It is busily occupied with hiding under the bed.",
         category: 'shadow',
         weight: 0,
         requirements: { items: ['shadow_essence'] },
@@ -2436,7 +2436,7 @@ export const chainEvents: GameEvent[] = [
     {
         id: 'C25_3',
         title: 'THE NIGHT-WORKER',
-        description: "The Shadow offers to 'Clean up' your problems. It is Currently: 'Sharpening a shadowy blade.'",
+        description: "The Shadow offers to 'Clean up' your problems. It is busily occupied with sharpening a shadowy blade.",
         category: 'shadow',
         weight: 0,
         requirements: { items: ['shadow_essence'] },
@@ -2459,7 +2459,7 @@ export const chainEvents: GameEvent[] = [
     {
         id: 'C25_4',
         title: 'THE TRADE-OFF',
-        description: "The Shadow wants to be the King for a day. It is Currently: 'Sizing up your crown.'",
+        description: "The Shadow wants to be the King for a day. It is busily occupied with sizing up your crown.",
         category: 'narrative',
         weight: 0,
         requirements: { items: ['shadow_essence'] },
@@ -2484,7 +2484,7 @@ export const chainEvents: GameEvent[] = [
     {
         id: 'C25_5',
         title: 'THE ECLIPSED MONARCH',
-        description: "The Shadow has merged with you. You are now Currently: 'Much more intimidating in the dark.'",
+        description: "The Shadow has merged with you. You have attained a status best described as \"Significantly More Intimidating in the Dark.\"",
         category: 'system',
         weight: 0,
         requirements: { items: ['shadow_essence'] },
