@@ -1,0 +1,144 @@
+.container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1000;
+    background-color: #000;
+    font-family: 'Press Start 2P', cursive, sans-serif;
+    color: #fff;
+    overflow: hidden;
+}
+
+.overlay {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url('/assets/background_kingdom.png');
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    image-rendering: pixelated;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 120px;
+    z-index: 10;
+}
+
+.logoContainer {
+    position: relative;
+    animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-30px);
+    }
+}
+
+.logo {
+    font-size: 3rem;
+    color: #ffd700;
+    text-shadow: 4px 4px #000, 8px 8px #8b4513;
+    margin: 0;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+.logoShadow {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-size: 3rem;
+    color: rgba(255, 215, 0, 0.3);
+    z-index: -1;
+    filter: blur(10px);
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 250px;
+}
+
+.btn {
+    background-color: #4CAF50;
+    border: 4px solid #1B5E20;
+    color: white;
+    padding: 20px;
+    font-size: 1rem;
+    font-family: inherit;
+    cursor: pointer;
+    box-shadow: 0 8px #1B5E20;
+    transition: all 0.1s;
+}
+
+.btn:hover {
+    background-color: #66BB6A;
+}
+
+.btn:active {
+    box-shadow: 0 2px #1B5E20;
+    transform: translateY(6px);
+}
+
+.btnSecondary {
+    background-color: #616161;
+    border: 4px solid #212121;
+    color: white;
+    padding: 15px;
+    font-size: 0.8rem;
+    font-family: inherit;
+    cursor: pointer;
+    box-shadow: 0 6px #212121;
+    transition: all 0.1s;
+}
+
+.btnSecondary:hover {
+    background-color: #757575;
+}
+
+.btnSecondary:active {
+    box-shadow: 0 2px #212121;
+    transform: translateY(4px);
+}
+
+.footer {
+    font-size: 0.6rem;
+    color: #aaa;
+    letter-spacing: 2px;
+}
+
+@media (max-width: 600px) {
+    .logo {
+        font-size: 1.5rem;
+    }
+
+    .btn {
+        font-size: 0.8rem;
+    }
+}
