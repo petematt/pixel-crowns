@@ -38,7 +38,6 @@ export const EventDeck: React.FC<EventDeckProps> = ({ event, resources, onOption
             <div className={styles.story}>
                 <h2 className={styles.title}>{event.title}</h2>
                 <p className={styles.description}>{event.description}</p>
-                <span className={styles.category}>Faction: {event.category.toUpperCase()}</span>
             </div>
 
             <div className={styles.options}>
